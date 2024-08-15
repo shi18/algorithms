@@ -117,6 +117,7 @@ public class BinaryIntro {
         System.out.println("enter return True function");
         return true;
     }
+
     public static boolean returnFalse(){
         System.out.println("enter return False function");
         return false;
