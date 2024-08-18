@@ -1,7 +1,7 @@
 package class009_linkedList;
 
 import java.util.List;
-
+//https://leetcode.com/problems/reverse-linked-list/
 public class LinkedListReverse {
     public static class ListNode{
         int val;
@@ -32,3 +32,6 @@ public class LinkedListReverse {
         }
     }
 }
+
+
+
