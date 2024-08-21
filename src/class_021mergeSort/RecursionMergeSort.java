@@ -1,6 +1,6 @@
 package class_021mergeSort;
 
-public class RecurrsionMergeSort {
+public class RecursionMergeSort {
     public static int MAXN = 50001;
     public static int[] help = new int[MAXN];
 

@@ -1,6 +1,6 @@
 package class_021mergeSort;
 
-public class NonRecurrionMergeSort {
+public class NonRecurionMergeSort {
 
     public static int MAX = 50001;
     public static int[] help = new int[MAX];
