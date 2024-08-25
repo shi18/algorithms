@@ -1,4 +1,4 @@
-package class_022divideAndConquer;
+package class022_divideAndConquer;
 
 //https://leetcode.com/problems/reverse-pairs/
 public class ReversePair {

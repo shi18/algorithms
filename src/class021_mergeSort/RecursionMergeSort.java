@@ -1,4 +1,4 @@
-package class_021mergeSort;
+package class021_mergeSort;
 //https://leetcode.com/problems/sort-an-array/
 
 public class RecursionMergeSort {

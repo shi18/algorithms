@@ -1,4 +1,4 @@
-package class_022divideAndConquer;
+package class022_divideAndConquer;
 
 public class SmallSum {
     public static int MAXN = 1000001;
