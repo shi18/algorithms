@@ -37,16 +37,16 @@ public class FirstBigKElement {
             first = l;
             last = r;
 
-            int a = l;
-            while (a <= last) {
+            int i = l;
+            while (i <= last) {
                 // System.out.println("old first: "+first+ " old last: "+last);
-                if(arr[a] == x){
-                    a++;
-                }else if(arr[a] < x){
-                    swap(arr, a++, first++);
+                if(arr[i] == x){
+                    i++;
+                }else if(arr[i] < x){
+                    swap(arr, i++, first++);
                     // System.out.println("after swap: "+Arrays.toString(arr));
                 }else{
-                    swap(arr, a, last--);
+                    swap(arr, i, last--);
                     // System.out.println("after swap: "+Arrays.toString(arr));
                 }
                 // System.out.println("first: "+first+ "  last: "+last);
