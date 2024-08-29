@@ -1,4 +1,4 @@
-package HeapStructureAndHeapSort;
+package class025_HeapStructureAndHeapSort;
 
 //https://leetcode.com/problems/sort-an-array/
 public class HeapSort {
