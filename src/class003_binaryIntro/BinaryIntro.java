@@ -30,7 +30,7 @@ public class BinaryIntro {
         System.out.println("a is: " + a);
         printByteBinary(a);
         System.out.println("-------------");
-        byte b = -89;
+        byte b = -2;
         System.out.println("b is: " + b);
         printByteBinary(b);
         System.out.println("-------------");
