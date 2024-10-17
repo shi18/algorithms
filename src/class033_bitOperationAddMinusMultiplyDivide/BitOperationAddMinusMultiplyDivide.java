@@ -42,21 +42,12 @@ public class BitOperationAddMinusMultiplyDivide {
 
     public int multiply(int a, int b){
         int ans = 0;
-//        System.out.println("a and b listed below");
-       // BinaryIntro.printIntBinary(a);
-        // BinaryIntro.printIntBinary(b);
         while(b != 0){
             if((b & 1) != 0){
                 ans = add(ans, a);
-            //    System.out.println("new ans: ");
-          //      BinaryIntro.printIntBinary(ans);
             }
-           // System.out.println("a left shift 1");
             a <<= 1;
-       //     BinaryIntro.printIntBinary(a);
-            //System.out.println("b right shift 1");
             b >>>=1;
-            // BinaryIntro.printIntBinary(b);
         }
         return ans;
     }
